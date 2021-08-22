@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html {
+  font-size: 65.5%;
+}
+a {
+  color: inherit;
+}
+button {
+  background: none;
+  border: none;
+}
+
+nav {
+  width: 100vw;
+  height: 10vh;
+  background: #333;
+  color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul {
+  list-style: none;
+  display: flex;
+}
+li {
+  padding: 1rem;
+  font-size: 1.8rem;
+  letter-spacing: 0.2rem;
+}
+.hogwarts {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.magic {
+  z-index: 2;
+  padding: 1rem 2rem;
+  border: 0.4rem solid lightgreen;
+  background: lightcoral;
+  cursor: pointer;
+  transition: all 2s ease-in-out;
+  position: relative;
+}
+.magic:hover {
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  background: lime;
+  border: 0.6rem solid blue;
+}
+.harry {
+  display: none;
+  width: 50%;
+  height: 40%;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+.harry img {
+  height: 60%;
+  width: 50%;
+}
+.harry button {
+  padding: 1rem 2rem;
+  border: 3px solid brown;
+  background: #f9f9f9;
+  cursor: pointer;
+}
